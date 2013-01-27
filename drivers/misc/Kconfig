@@ -489,5 +489,5 @@ config STORAGE_DGS
 	default m
 	help
 	  Say Y to readable dgs I/F support.
-
+	  
 endif # MISC_DEVICES
