@@ -47,3 +47,4 @@ obj-$(CONFIG_SAMSUNG_MODEMCTL)	+= samsung_modemctl/
 obj-$(CONFIG_SAMSUNG_FM_SI4709)		+= fm_si4709/
 obj-$(CONFIG_VIBETONZ)		+= vibetonz/
 
+obj-$(CONFIG_CPU_DIDLE)		+= deep_idle.o
