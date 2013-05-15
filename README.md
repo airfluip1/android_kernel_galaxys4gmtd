@@ -1,11 +1,19 @@
-# Reset - v0.4.1 MTD
+# AirBurst JB
 
-Welcome to the Reset of the Subtly Modified Stock kernel.
+Welcome to AirBurstJB
 
-I started this project with the mindset of embedded linux, and at the bottom end of the android system learning curve.
+So this is airfluip1's (my) take on our kernel
 
-Since then I've learned a lot about android and found a lot of my changes to understand what android expects may have been causing more problems then solutions.
+My plan's are to
+Port this to a functional Android 4.2.2 Kernel
+Port up the linux kernel version to the latest release
+Port this to the future android versions.
 
-The Reset kernel went all the way back to the initial Samsung T959VUVKJ6 source drop. Only adding on bits that worked.
-
-More to come here...
+Credits
+Me
+Bhundven
+FBis251
+Krylon360
+Dsexton702
+BeastMode
+AntonX
