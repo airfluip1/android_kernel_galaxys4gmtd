@@ -4,7 +4,7 @@
 
 # Each configuration option enables a list of files.
 
-obj-$(CONFIG_KEYBOARD_AAED2000)		+= aaed2000_kbd.o
+obj-$(CONFIG_KEYBOARD_AAED2000)  	+= aaed2000_kbd.o
 obj-$(CONFIG_KEYBOARD_ADP5520)		+= adp5520-keys.o
 obj-$(CONFIG_KEYBOARD_ADP5588)		+= adp5588-keys.o
 obj-$(CONFIG_KEYBOARD_AMIGA)		+= amikbd.o
@@ -38,10 +38,5 @@ obj-$(CONFIG_KEYBOARD_SUNKBD)		+= sunkbd.o
 obj-$(CONFIG_KEYBOARD_TWL4030)		+= twl4030_keypad.o
 obj-$(CONFIG_KEYBOARD_XTKBD)		+= xtkbd.o
 obj-$(CONFIG_KEYBOARD_W90P910)		+= w90p910_keypad.o
-obj-$(CONFIG_KEYPAD_MELFAS_TOUCH)       += melfas-touchkey.o
-obj-$(CONFIG_KEYPAD_MELFAS_TOUCH)       += melfas_download.o
-obj-$(CONFIG_KEYPAD_CYPRESS_TOUCH)      += issp_driver_routines.o
-obj-$(CONFIG_KEYPAD_CYPRESS_TOUCH)      += issp_main.o
-obj-$(CONFIG_KEYPAD_CYPRESS_TOUCH)      += issp_routines.o
-obj-$(CONFIG_KEYPAD_S3C)                += s3c-keypad.o
 obj-$(CONFIG_KEYPAD_CYPRESS_TOUCH)	+= cypress-touchkey.o
+obj-$(CONFIG_KEYPAD_CYPRESS_TOUCH)	+= cypress-touchkey-firmware.o
